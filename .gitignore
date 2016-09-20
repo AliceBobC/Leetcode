@@ -1,0 +1,22 @@
+public class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        
+        int len=0,i=0,j = 0,sum=0;
+	    int[] result =new int[5];
+	        
+	    len=nums.length;
+	        
+	    for(i=0;i<len-1;i++)
+	        for(j=i+1;j<len;j++){	        	
+	        	sum=nums[i]+nums[j];
+	        		
+	        	if(sum==target)
+	        		break;
+	        	}
+	        
+	    result[0]=i;
+	    result[1]=j;
+	        
+	    return result;
+    }
+}
