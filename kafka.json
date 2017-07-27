@@ -1,0 +1,22 @@
+2个月：技术验证，迁移effort， uniform，mqtt ,  ecall迁移过来测试，数据收集和设备注册两块
+docker，bluemix的kubernete了解，document下来，安装，部署，guide，没有分析部分
+
+architecture decision， 未知设备，其他协议，机会-涉及很多未来，弄一个data gateway，通用API，往传感器那边处理，尽量不用
+
+2个月：OBD-集成厂商的盒子，UDP协议，usecase，中间件之前是厂商的--， UDP，集成，unipo非常好，端到端，没有working的东西，迁移到国内，厂商的盒子
+	safedrive，状态收集
+	国产，GPS数据，2g,3g都有，event detection不能，
+	车队管理，
+	福特-OBD，第三方，设备端分析behavior
+	
+
+2个月： ecall 迁移， docker化
+
+实习项目？
+
+讨论硬件项目
+国内设备，不确定协议，第一手接入IOT
+
+kaa: udp mqtt 
+iot: 收集信息的过程，实时性和数据量特性差异，视频数据？？？？
+每周一次例会
